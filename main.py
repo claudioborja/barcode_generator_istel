@@ -54,9 +54,11 @@ for codigo_barras_texto in codigos:
     codigo_barras_ruta = generar_codigo_barras(codigo_barras_texto)
     nombre_imagen = f"{codigo_barras_texto}.png"
     longitud = len(codigo_barras_texto)
-
-
     if longitud < 30:
         crear_imagen(logo_path, titulo_texto, codigo_barras_ruta, nombre_imagen, 37)
     else:
         crear_imagen(logo_path, titulo_texto, codigo_barras_ruta, nombre_imagen, 45)
+
+
+#SoftecApps
+#info@softecsa.com
