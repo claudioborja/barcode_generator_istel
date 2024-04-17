@@ -18,6 +18,7 @@ Este es un script en Python que genera imágenes PNG de códigos de barras alfan
 
 ```bash
 python generador_codigos_barras.py
+```
 
 ## Contacto
 
